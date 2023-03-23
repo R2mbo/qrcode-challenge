@@ -7,14 +7,10 @@
 body {
     
     background-color: #D5E1EF;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 main {
@@ -23,7 +19,7 @@ main {
     align-items: center;
     flex-direction: column;
     background-color: white;
-    padding: 15px;
+    padding: 17px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -33,12 +29,12 @@ main {
 
 main .title, main .desc {
     font-family: 'Outfit', sans-serif;
-    width: 250px;
+    width: 260px;
     text-align: center;
 }
 
 .title {
-    font-size: 1.3em;
+    font-size: 1.4em;
     margin-top: 20px;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
@@ -54,7 +50,7 @@ main .title, main .desc {
 
 
 main figure img {
-    width: 250px;
+    width: 290px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
